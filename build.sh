@@ -38,6 +38,6 @@ if ! [ -f $SRC/kanjidic2.xml ]; then
 fi
 
 yomichan-import --language=english $SRC/kanjidic2.xml $DST/kanjidic_english.zip
-yomichan-import --language=french $SRC/kanjidic2.xml $DST/.dst/kanjidic_french.zip
+yomichan-import --language=french $SRC/kanjidic2.xml $DST/kanjidic_french.zip
 yomichan-import --language=portuguese $SRC/kanjidic2.xml $DST/kanjidic_portuguese.zip
 yomichan-import --language=spanish $SRC/kanjidic2.xml $DST/kanjidic_spanish.zip
