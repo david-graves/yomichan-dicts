@@ -14,16 +14,16 @@ if ! [ -f $SRC/JMdict ]; then
     gzip -d -k $SRC/JMdict.gz
 fi
 
-yomichan-import --language=dutch $SRC/JMdict $DST/jmdict_dutch.zip
-yomichan-import --language=english $SRC/JMdict $DST/jmdict_english.zip
-yomichan-import --language=french $SRC/JMdict $DST/jmdict_french.zip
-yomichan-import --language=german $SRC/JMdict $DST/jmdict_german.zip
-yomichan-import --language=hungarian $SRC/JMdict $DST/jmdict_hungarian.zip
-yomichan-import --language=italian $SRC/JMdict $DST/jmdict_italian.zip
-yomichan-import --language=russian $SRC/JMdict $DST/jmdict_russian.zip
-yomichan-import --language=slovenian $SRC/JMdict $DST/jmdict_slovenian.zip
-yomichan-import --language=spanish $SRC/JMdict $DST/jmdict_spanish.zip
-yomichan-import --language=swedish $SRC/JMdict $DST/jmdict_swedish.zip
+yomichan-import --title="JMdict (Dutch)" --language=dutch $SRC/JMdict $DST/jmdict_dutch.zip
+yomichan-import --title="JMdict (English)" --language=english $SRC/JMdict $DST/jmdict_english.zip
+yomichan-import --title="JMdict (French)" --language=french $SRC/JMdict $DST/jmdict_french.zip
+yomichan-import --title="JMdict (German)" --language=german $SRC/JMdict $DST/jmdict_german.zip
+yomichan-import --title="JMdict (Hungarian)" --language=hungarian $SRC/JMdict $DST/jmdict_hungarian.zip
+yomichan-import --title="JMdict (Italian)" --language=italian $SRC/JMdict $DST/jmdict_italian.zip
+yomichan-import --title="JMdict (Russian)" --language=russian $SRC/JMdict $DST/jmdict_russian.zip
+yomichan-import --title="JMdict (Slovenian)" --language=slovenian $SRC/JMdict $DST/jmdict_slovenian.zip
+yomichan-import --title="JMdict (Spanish)" --language=spanish $SRC/JMdict $DST/jmdict_spanish.zip
+yomichan-import --title="JMdict (Swedish)" --language=swedish $SRC/JMdict $DST/jmdict_swedish.zip
 
 # convert jmnedict
 if ! [ -f $SRC/JMnedict.xml ]; then
@@ -37,7 +37,7 @@ if ! [ -f $SRC/kanjidic2.xml ]; then
     gzip -d -k $SRC/kanjidic2.xml.gz
 fi
 
-yomichan-import --language=english $SRC/kanjidic2.xml $DST/kanjidic_english.zip
-yomichan-import --language=french $SRC/kanjidic2.xml $DST/kanjidic_french.zip
-yomichan-import --language=portuguese $SRC/kanjidic2.xml $DST/kanjidic_portuguese.zip
-yomichan-import --language=spanish $SRC/kanjidic2.xml $DST/kanjidic_spanish.zip
+yomichan-import --title="JMdict (English)" --language=english $SRC/kanjidic2.xml $DST/kanjidic_english.zip
+yomichan-import --title="JMdict (French)" --language=french $SRC/kanjidic2.xml $DST/kanjidic_french.zip
+yomichan-import --title="JMdict (Portuguese)" --language=portuguese $SRC/kanjidic2.xml $DST/kanjidic_portuguese.zip
+yomichan-import --title="JMdict (Spanish)" --language=spanish $SRC/kanjidic2.xml $DST/kanjidic_spanish.zip
