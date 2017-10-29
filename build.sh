@@ -44,7 +44,7 @@ if ! [ -f $SRC/kanjidic2.xml ]; then
     gzip -d -k $SRC/kanjidic2.xml.gz
 fi
 
-yomichan-import --title="JMdict (English)" --language=english $SRC/kanjidic2.xml $DST/kanjidic_english.zip
-yomichan-import --title="JMdict (French)" --language=french $SRC/kanjidic2.xml $DST/kanjidic_french.zip
-yomichan-import --title="JMdict (Portuguese)" --language=portuguese $SRC/kanjidic2.xml $DST/kanjidic_portuguese.zip
-yomichan-import --title="JMdict (Spanish)" --language=spanish $SRC/kanjidic2.xml $DST/kanjidic_spanish.zip
+yomichan-import --title="KANJIDIC (English)" --language=english $SRC/kanjidic2.xml $DST/kanjidic_english.zip
+yomichan-import --title="KANJIDIC (French)" --language=french $SRC/kanjidic2.xml $DST/kanjidic_french.zip
+yomichan-import --title="KANJIDIC (Portuguese)" --language=portuguese $SRC/kanjidic2.xml $DST/kanjidic_portuguese.zip
+yomichan-import --title="KANJIDIC (Spanish)" --language=spanish $SRC/kanjidic2.xml $DST/kanjidic_spanish.zip
