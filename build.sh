@@ -19,7 +19,6 @@ yomichan-import --title="JMdict (English)" --language=english $SRC/JMdict $DST/j
 yomichan-import --title="JMdict (French)" --language=french $SRC/JMdict $DST/jmdict_french.zip
 yomichan-import --title="JMdict (German)" --language=german $SRC/JMdict $DST/jmdict_german.zip
 yomichan-import --title="JMdict (Hungarian)" --language=hungarian $SRC/JMdict $DST/jmdict_hungarian.zip
-yomichan-import --title="JMdict (Italian)" --language=italian $SRC/JMdict $DST/jmdict_italian.zip
 yomichan-import --title="JMdict (Russian)" --language=russian $SRC/JMdict $DST/jmdict_russian.zip
 yomichan-import --title="JMdict (Slovenian)" --language=slovenian $SRC/JMdict $DST/jmdict_slovenian.zip
 yomichan-import --title="JMdict (Spanish)" --language=spanish $SRC/JMdict $DST/jmdict_spanish.zip
